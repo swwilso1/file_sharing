@@ -242,16 +242,13 @@ impl Repl {
 
                     match rx.await {
                         Ok(result) => match result? {
+                            QueryResult::Boolean(true) => {}
                             QueryResult::Boolean(false) => {
                                 println!("File does not exist");
                                 return Ok(ReplBehavior::Prompt);
                             }
                             QueryResult::Files(_) => {
                                 error!("Received file list result when expecting boolean");
-                            }
-                            _ => {
-                                error!("I'm not sure what happened");
-                                return Ok(ReplBehavior::Prompt);
                             }
                         },
                         Err(e) => {
