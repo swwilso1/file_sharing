@@ -1,9 +1,9 @@
-# Gensyn Distributed Systems Engineering Assignment Solution
+# Distributed Systems Engineering Assignment Solution
 
 ## Introduction
 
 This application exists to meet the requirements of the libp2p-file-sharing
-assignment from Gensyn.
+assignment.
 
 The assignment requested the following things:
 
