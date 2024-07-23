@@ -1,11 +1,11 @@
-# Distributed Systems Engineering Assignment Solution
+# Distributed Systems Engineering Exercise
 
 ## Introduction
 
 This application exists to meet the requirements of the libp2p-file-sharing
-assignment.
+exercise.
 
-The assignment requested the following things:
+The exercise requested the following things:
 
 - [x] A command line application that can be used to interactively share files over a local network.
 - [x] A user `A` can request available files from a peer `B`.
